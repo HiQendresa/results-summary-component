@@ -1,8 +1,7 @@
 fetch('data.json')
     .then(response => response.json())
     .then(data => {
-        const sortedData = data.sort();
-        sortedData.forEach(item => {
+        data.forEach(item => {
             const lists = `
             <li>
               <div>

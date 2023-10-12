@@ -234,6 +234,13 @@ body .container .summary ul li {
 body .container .summary ul li div {
   display: flex;
 }
+body .container .summary ul li .icon {
+  margin-right: 10px;
+}
+body .container .summary ul li .point {
+  display: flex;
+  gap: 3px;
+}
 body .container .summary .countinueBtn {
   width: 288px;
   height: 56px;

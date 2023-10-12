@@ -248,6 +248,15 @@ body {
                     div {
                         display: flex;
                     }
+
+                    .icon {
+                        margin-right: 10px;
+                    }
+
+                    .point {
+                        display: flex;
+                        gap: 3px;
+                    }
                 }
             }
 
